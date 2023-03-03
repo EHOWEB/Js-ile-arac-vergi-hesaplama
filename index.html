@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+          <meta charset="UTF-8">
+          <meta http-equiv="X-UA-Compatible" content="IE=edge">
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <title>Document</title>
+          <link rel="stylesheet" href="style.css">
+</head>
+<body onload="yillar()">
+
+          
+      
+    <div class="container">
+          <div class="item1">Araç Tipini Seçiniz</div>
+          <div class="item2">
+                    <select name="car" id="cars" size="1">
+                              <option value="oto">Otomobil</option>
+                              <option value="moto">Motorsiklet</option>
+                              <option value="suv">Suv</option>
+
+                    </select>
+                   
+          </div>
+          <div class="item3">Motor Gücü Alanı</div>
+          <div class="item4"> Silindir Hacmi
+
+
+                    <label   value="1000cc "for="secenek1"><input name='secenek'  type="radio"> 1000-1300 Motor </label>
+                   
+                    <label  value="1300cc " for="secenek2"><input name='secenek' type="radio"> 1300-1600 Motor</label>
+                    
+                    <label  value="1600cc " for="secenek3"><input name='secenek' type="radio"> 1600-1800 Motor</label>
+                
+                    <label value="1800cc " for="secenek4"><input name='secenek'  type="radio"> 1800-2500 Motor</label>
+
+        
+                   
+                 
+          </div>
+          <div class="item5">Araç Model Yılı </div>
+          <div class="item6"> 
+                    <select name="" id="aracYili"  style="width: 100px;" >
+                              <option   class="yas" value="Yil">ARAÇ YAŞI  </option>
+                    </select> 
+          </div>
+          <input type="button" value="Vergiyi Hesapla" onclick="vergiHesapla();"  class="item7">
+          
+
+    </div>
+<div id="son">
+          Hesaplanan Faiz Oranı:
+</div>
+
+
+
+
+<script src="app.js"></script>
+</body>
+</html>

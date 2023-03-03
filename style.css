@@ -1,0 +1,72 @@
+*{
+          margin: 0;
+          padding: 0;
+          
+}
+body{
+         
+ background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(./img/ferar.jpg);
+}
+
+
+
+.item1{ grid-area: a;}
+.item2{ grid-area: b;}
+.item3{ grid-area: c;}
+.item4{ grid-area: d;}
+.item5{ grid-area: e;}
+.item6{ grid-area: f;}
+.item7{ grid-area: g;}
+.container> div{
+          background-color:rgb(255, 255, 255, 0.6);
+          padding: 10px 0;
+          font-size: 20px;
+          align-items: left;
+
+}
+.container{
+          
+         margin: 50px;
+          display: grid;
+          gap: 20px;
+          background-color: rgb(24, 180, 125);
+          padding: 10px;
+          grid-template-areas: 
+          'a a a b b b ' 
+          'c c c d d d '
+          'e e e f f f '
+          'g g g g g g ';
+}
+.item7{
+          align-items: center;
+          justify-content: center;
+}
+#cars{
+          font-size: 25px;
+          border-radius: 10px;
+          width: 100%;
+
+
+}
+.item4{
+          display: flex;
+          flex-direction: column;
+
+}
+.item6{
+          font-size: 25px;
+          border-radius: 10px;
+}
+
+.item2{
+        
+          margin-top: 0;
+          padding-top: 0;
+}
+#son{
+          font-size: 30px;
+          text-align: center;
+          font-family: Arial, Helvetica, sans-serif;
+          color: aquamarine;
+
+}
